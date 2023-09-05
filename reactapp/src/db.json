@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "unique-1",
+      "name": "Mustafa Murat Coşkun",
+      "Department": "Yazılım",
+      "Salary": "5000"
+    },
+    {
+      "id": "unique-2",
+      "name": "Ramazan Fırat Akdağ",
+      "Department": "Java Developer",
+      "Salary": "3000"
+    },
+    {
+      "id": "unique-3",
+      "name": "Öykü Atak",
+      "Department": "Siber Güvenlik",
+      "Salary": "3000"
+    },
+    {
+      "id": "a445bed5-c99c-4b82-ab7a-df19fbfa016f",
+      "name": "İsmail Kızılkaya",
+      "Department": "Bulut Teknolojileri",
+      "Salary": "9000"
+    }
+  ]
+}

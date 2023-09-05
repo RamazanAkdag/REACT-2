@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "fullName": "John Doe",
+      "email": "john@example.com",
+      "password": "john123"
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "fullName": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "jane123"
+    },
+    {
+      "id": 3,
+      "username": "michael_jackson",
+      "fullName": "Michael Jackson",
+      "email": "michael@example.com",
+      "password": "michael123"
+    }
+  ],
+
+  "articlePreviewCards": [
+    {
+      "id": 1,
+      "articleUrl": "/article/1",
+      "articleTitle": "Distributed cache system design",
+      "articleIntroduction": "The caching system’s data is actually stored in the faster access hardware like RAM. RAM provides faster i/o operation and reduces latency.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*nCRXtYcpgxK9rBFk.png",
+      "tags": ["ai", "chatgpt", "deeplearning"]
+    },
+    {
+      "id": 2,
+      "articleUrl": "/article/2",
+      "articleTitle": "Advice From a Software Engineer With 8 Years of Experience",
+      "articleIntroduction": "You can fill in this document at the frequency you want. I would advise doing that on a weekly basis. Tasks done during the week are still fresh on Friday, so you won’t struggle writing them down.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*r5coQ_IUZNe0yjOH7vq_6w.jpeg",
+      "tags": ["ramo", "öykü", "akdağ"]
+    },
+    {
+      "id": 4,
+      "articleTitle": "Sharing Data Between Microservices",
+      "articleUrl": "/article/4",
+      "articleIntroduction": "I saw it stapled everywhere on the internet: “thou shalt not share a DB between two services”, and it definitely made sense.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*tXul7ouZg0smoq6I45Mdfw.jpeg",
+      "tags": ["istanbul", "tech", "vestel"]
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "authorUserId": 1,
+      "creationDate": "12-29-2023",
+      "updateDate": "12-29-2023",
+      "articleUrl": "/article/1",
+      "articleTitle": "Distributed cache system design",
+      "article": "The caching system’s data is actually stored in the faster access hardware like RAM. RAM provides faster i/o operation and reduces latency.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*nCRXtYcpgxK9rBFk.png"
+    },
+    {
+      "id": 2,
+      "authorUserId": 1,
+      "creationDate": "12-29-2023",
+      "updateDate": "12-29-2023",
+      "articleUrl": "/article/2",
+      "articleTitle": "Advice From a Software Engineer With 8 Years of Experience",
+      "article": "You can fill in this document at the frequency you want. I would advise doing that on a weekly basis. Tasks done during the week are still fresh on Friday, so you won’t struggle writing them down.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*r5coQ_IUZNe0yjOH7vq_6w.jpeg"
+    },
+    {
+      "id": 4,
+      "authorUserId": 1,
+      "creationDate": "12-29-2023",
+      "updateDate": "12-29-2023",
+      "articleTitle": "Sharing Data Between Microservices",
+      "articleUrl": "/article/4",
+      "article": "I saw it stapled everywhere on the internet: “thou shalt not share a DB between two services”, and it definitely made sense. A service must own its data and retain the freedom to change its schema as it pleases, without changing its external-facing API.",
+      "articleImgUrl": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*tXul7ouZg0smoq6I45Mdfw.jpeg"
+    }
+  ]
+}
